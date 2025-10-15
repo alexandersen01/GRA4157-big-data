@@ -215,7 +215,7 @@ if __name__ == "__main__":
     # )
 
     # Option 2: Process year by year (recommended for large datasets)
-    all_articles = get_data_by_year_ranges(TOPIC, years_back=1, max_workers=12)
+    all_articles = get_data_by_year_ranges(TOPIC, years_back=20, max_workers=6)
 
     end_time = time.time()
 
