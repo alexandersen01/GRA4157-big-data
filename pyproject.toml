@@ -1,0 +1,14 @@
+[project]
+name = "gra4157-big-data"
+version = "0.1.0"
+description = "GRA4157 Big Data course project"
+readme = "README.md"
+requires-python = ">=3.8"
+dependencies = [
+    "certifi>=2025.4.26",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
