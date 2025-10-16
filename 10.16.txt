@@ -1,0 +1,7 @@
+1. Put Nasdaq in the datset and scrap data from '2018-01-01' to '2025-10-15'
+
+2. Add Nasdaq data in "Rolling 90-day correlations"
+
+3. Add Nasdaq data in "Quarterly Average Correlation with Bitcoin"
+
+4. Put Nasdaq data in the last Analysis code.
