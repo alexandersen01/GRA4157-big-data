@@ -97,7 +97,7 @@ The first part of this process involves converting the 32 $7\times 7$ feature ma
 
 Next up, we feed that long vector of numerical representation of features, into a linear layer which combines them into 64 high-level features. Think of this as: `How do all these features relate to a specific digit?'
 
-Again, we hit it with the ReLU, and then there is a dropout layer. Basically what this does is randomly turning off 25\% of the neurons which in turn forces the network to not rely too much on overfitting which prevents overfitting. 
+Again, we hit it with the ReLU, and then there is a dropout layer. Basically what this does is randomly turning off 25\% of the neurons which in turn forces the network to not rely too much on any single feature which prevents overfitting. 
 
 Finally we have the last linear layer. This outputs an $(N, 10)$ values, which are called logits. Each logit corresponds to a digit class, and the class with the highest score is chosen as the prediction. 
 
@@ -171,7 +171,7 @@ This is usually a compute-heavy process, but since torch supports running comput
 
 \section{Results}
 
-After the cross validation, we can see that the optimal initial learning rate is 0.00025 on 60 epochs, rendering an F1 score of 0.99, which is pretty good. 
+After the cross validation, we can see that the optimal initial learning rate is 0.0005 on 50 epochs, rendering an F1 score of 0.99, which is pretty good. 
 
 Running the model on unseen test data, we achieve an F1 score that is slightly better than the train/validation score. 
 
