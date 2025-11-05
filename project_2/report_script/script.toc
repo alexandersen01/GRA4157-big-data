@@ -1,0 +1,17 @@
+\contentsline {section}{\numberline {1}Introduction}{3}{section.1}%
+\contentsline {subsection}{\numberline {1.1}CNN Justification}{3}{subsection.1.1}%
+\contentsline {section}{\numberline {2}CNN theory}{3}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Convolutional Operation}{3}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}Architecture Breakdown}{3}{subsection.2.2}%
+\contentsline {subsubsection}{\numberline {2.2.1}Part 1: Convolutional Layers}{3}{subsubsection.2.2.1}%
+\contentsline {subsubsection}{\numberline {2.2.2}Part 2: Fully Connected Layers}{4}{subsubsection.2.2.2}%
+\contentsline {subsection}{\numberline {2.3}Briefly show the network}{4}{subsection.2.3}%
+\contentsline {subsection}{\numberline {2.4}Training}{4}{subsection.2.4}%
+\contentsline {subsubsection}{\numberline {2.4.1}Gradient Descent}{4}{subsubsection.2.4.1}%
+\contentsline {subsubsection}{\numberline {2.4.2}Epochs}{4}{subsubsection.2.4.2}%
+\contentsline {subsection}{\numberline {2.5}Evaluation}{4}{subsection.2.5}%
+\contentsline {subsection}{\numberline {2.6}Side note on overfitting: double descent}{5}{subsection.2.6}%
+\contentsline {section}{\numberline {3}Implementation}{5}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Visualization}{5}{subsection.3.1}%
+\contentsline {section}{\numberline {4}K-fold Cross-Validation}{5}{section.4}%
+\contentsline {section}{\numberline {5}Results}{6}{section.5}%
